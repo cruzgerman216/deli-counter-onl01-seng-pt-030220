@@ -6,6 +6,7 @@ def line(deli)
     deli.each.with_index(1) do|person, i|
       str << " #{i}. #{{person}}"
     end
+    puts str
   end
 end
 
