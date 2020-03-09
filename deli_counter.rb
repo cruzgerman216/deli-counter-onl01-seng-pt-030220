@@ -21,6 +21,7 @@ if deli.empty?
 else
   puts "Currently serving #{deli.first}."
    deli.shift
+ end
 end
 
 katz_deli = ["Ada", "Grace", "Kent"]
