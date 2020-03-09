@@ -12,3 +12,8 @@ end
 
 katz_deli = ["Ada", "Grace", "Kent"]
 line(katz_deli)
+
+def take_a_name(deli, name)
+deli << name
+puts "Welcome, #{name}. You are number #{deli.length} in line."
+end
