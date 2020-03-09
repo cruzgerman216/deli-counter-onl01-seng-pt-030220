@@ -4,7 +4,7 @@ def line(deli)
   else
     str = "The line is currently:"
     deli.each.with_index(1) do|person, i|
-      current_line << " #{i}. #{{person}}"
+      str << " #{i}. #{{person}}"
     end
   end
 end
